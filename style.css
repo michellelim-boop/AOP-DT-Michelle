@@ -94,16 +94,13 @@ footer a {
 }
 
 .m-masuk {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 900px;
-    padding: 0 0 100px 0;
+    padding: 120px 0;
 }
 
 .m-login {
     background-color: white;
     width: 340px;
+    margin: 0 auto;
     padding: 30px;
     border: 1px solid #cccccc;
     border-radius: 12px;
@@ -162,8 +159,7 @@ footer a {
     }
 
     .m-masuk {
-        height: 840px;
-        padding: 0 0 60px 0;
+        padding: 60px 0;
     }
 
     .m-login {
