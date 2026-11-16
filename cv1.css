@@ -94,6 +94,51 @@ h2 {
     gap: 20px;
 }
 
+.m-skill {
+    display: grid;
+    grid-template-columns: 1fr 100px 40px;
+    gap: 10px;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.m-skill p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.m-bar {
+    height: 10px;
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+
+.m-bar div {
+    height: 10px;
+    background-color: #1e3a8a;
+    border-radius: 5px;
+}
+
+.m-96 {
+    width: 96%;
+}
+
+.m-90 {
+    width: 90%;
+}
+
+.m-86 {
+    width: 86%;
+}
+
+.m-85 {
+    width: 85%;
+}
+
+.m-75 {
+    width: 75%;
+}
+
 ul {
     margin: 0 0 12px 0;
     padding: 0 0 0 20px;
