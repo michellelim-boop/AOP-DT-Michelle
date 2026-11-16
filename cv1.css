@@ -1,0 +1,141 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 160px;
+    margin: 20px 0 20px auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+nav a {
+    color: #1e3a8a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header, section {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    margin: 0 0 20px 0;
+}
+
+section {
+    padding: 20px 20px 0 20px;
+}
+
+header {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+h1 {
+    color: #1e3a8a;
+    font-size: 32px;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    color: #1e3a8a;
+    margin: 0 0 10px 0;
+}
+
+.m-foto {
+    display: block;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.m-tombol {
+    display: block;
+    background-color: #f5c400;
+    color: #222222;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin: 12px 0 0 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.m-tombol:hover {
+    background-color: #dba800;
+}
+
+.m-baris {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+}
+
+ul {
+    margin: 0 0 12px 0;
+    padding: 0 0 0 20px;
+}
+
+li {
+    margin: 0 0 8px 0;
+}
+
+section a {
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    body {
+        width: 90%;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .m-foto {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .m-tombol {
+        width: 160px;
+        margin: 12px auto 0 auto;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .m-baris {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}

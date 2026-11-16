@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+header, footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 10px 0 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5c400;
+}
+
+.m-tombol {
+    display: block;
+    background-color: #f5c400;
+    color: #222222;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.m-tombol:hover {
+    background-color: #dba800;
+    color: #222222;
+}
+
+main section {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: #1e3a8a;
+    margin: 0 0 15px 0;
+}
+
+.m-daftar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.m-daftar div {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.m-daftar h3 {
+    color: #1e3a8a;
+    margin: 0 0 8px 0;
+}
+
+.m-daftar p {
+    margin: 5px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+.m-masuk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    padding: 0 0 100px 0;
+}
+
+.m-login {
+    background-color: white;
+    width: 340px;
+    padding: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+}
+
+.m-login img {
+    display: block;
+    margin: 0 auto;
+}
+
+.m-login h2 {
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.m-login p {
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+
+.m-login input {
+    width: 93%;
+    padding: 10px 3%;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.m-login .m-ingat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+    margin: 15px 0 20px 0;
+}
+
+.m-ingat input {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        display: grid;
+        gap: 12px;
+    }
+
+    .m-daftar {
+        grid-template-columns: 1fr;
+    }
+
+    .m-masuk {
+        height: 840px;
+        padding: 0 0 60px 0;
+    }
+
+    .m-login {
+        width: 75%;
+    }
+}
