@@ -64,7 +64,7 @@ h2 {
     margin: 0 0 10px 0;
 }
 
-.m-foto {
+.michelle-foto {
     display: block;
     width: 180px;
     height: 180px;
@@ -72,7 +72,7 @@ h2 {
     object-fit: cover;
 }
 
-.m-tombol {
+.michelle-tombol {
     display: block;
     background-color: #f5c400;
     color: #222222;
@@ -84,17 +84,17 @@ h2 {
     border-radius: 8px;
 }
 
-.m-tombol:hover {
+.michelle-tombol:hover {
     background-color: #dba800;
 }
 
-.m-baris {
+.michelle-baris {
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 20px;
 }
 
-.m-skill {
+.michelle-skill {
     display: grid;
     grid-template-columns: 1fr 100px 40px;
     gap: 10px;
@@ -102,40 +102,40 @@ h2 {
     margin: 0 0 20px 0;
 }
 
-.m-skill p {
+.michelle-skill p {
     margin: 0;
     font-size: 14px;
 }
 
-.m-bar {
+.michelle-bar {
     height: 10px;
     background-color: #dddddd;
     border-radius: 5px;
 }
 
-.m-bar div {
+.michelle-bar div {
     height: 10px;
     background-color: #1e3a8a;
     border-radius: 5px;
 }
 
-.m-96 {
+.michelle-96 {
     width: 96%;
 }
 
-.m-90 {
+.michelle-90 {
     width: 90%;
 }
 
-.m-86 {
+.michelle-86 {
     width: 86%;
 }
 
-.m-85 {
+.michelle-85 {
     width: 85%;
 }
 
-.m-75 {
+.michelle-75 {
     width: 75%;
 }
 
@@ -164,13 +164,13 @@ section a {
         text-align: center;
     }
 
-    .m-foto {
+    .michelle-foto {
         width: 150px;
         height: 150px;
         margin: 0 auto;
     }
 
-    .m-tombol {
+    .michelle-tombol {
         width: 160px;
         margin: 12px auto 0 auto;
     }
@@ -179,7 +179,7 @@ section a {
         font-size: 26px;
     }
 
-    .m-baris {
+    .michelle-baris {
         grid-template-columns: 1fr;
         gap: 0;
     }
